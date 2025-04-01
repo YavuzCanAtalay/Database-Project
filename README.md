@@ -22,7 +22,7 @@ The system is structured into **three phases**, and more than **70%** of the wor
 - Attributes like `AverageRating`, `Reputation`, and `Nationality` enrich user and restaurant profiles.
 - SQL data samples provided for all tables.
 
-📄 See: [`CS306 Phase 1 Proje.pdf`](./CS306%20Phase%201%20Proje.pdf)
+📄 See: [`CS306 Phase 1`](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306%20Phase%201%20Proje.pdf)
 
 ---
 
@@ -52,17 +52,18 @@ The system is structured into **three phases**, and more than **70%** of the wor
 - **Database:** MySQL (via phpMyAdmin)
 - **Local Hosting:** XAMPP (Apache + MySQL)
 
-📄 See: [`CS306_GROUP_72_HW2_REPORT.pdf`](./CS306_GROUP_72_HW2_REPORT.pdf)  
-📄 See: [`ReadMe.docx`](./ReadMe.docx)
+📄 See: [`CS306_GROUP_72_HW2_REPORT.pdf`](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/CS306_GROUP_72_HW2_REPORT.pdf)  
 
-Preview:
-- ![Form Screenshot](./input_form.png)
-- ![Confirmation Screenshot](./insertion_confirmation.png)
-- ![Review View Table](./has_view_reviews_data_view.png)
+Coding:
+- ![HTML VSCode](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/build/insert_review.html)
+- ![PHP VSCode](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/build/insert_review.php)
+- ![Procedure MySQL](https://github.com/YavuzCanAtalay/Database-Project/tree/main/CS306_GROUP_72_HW2/scripts/stored_procedures)
+- ![Triggers MySQL](https://github.com/YavuzCanAtalay/Database-Project/tree/main/CS306_GROUP_72_HW2/scripts/triggers)
+- ![All Code](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/scripts/cs306%20Code.sql)
 
 ---
 
-### 🔹 Phase 3: Finalization (Coming Soon 🚧)
+### 🔹 Phase 3: Finalization (Coming Soon)
 - Will integrate final UI improvements and possibly login/registration simulation.
 - Further refine restaurant types and menu-item filtering.
 - Additional constraints and UI validations may be added.
