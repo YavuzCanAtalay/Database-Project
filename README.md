@@ -59,7 +59,7 @@ Coding:
 - ![PHP VSCode](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/build/insert_review.php)
 - ![Procedure MySQL](https://github.com/YavuzCanAtalay/Database-Project/tree/main/CS306_GROUP_72_HW2/scripts/stored_procedures)
 - ![Triggers MySQL](https://github.com/YavuzCanAtalay/Database-Project/tree/main/CS306_GROUP_72_HW2/scripts/triggers)
-- ![All Code](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/scripts/cs306%20Code.sql)
+- ![All SQL Codes](https://github.com/YavuzCanAtalay/Database-Project/blob/main/CS306_GROUP_72_HW2/scripts/cs306%20Code.sql)
 
 ---
 
