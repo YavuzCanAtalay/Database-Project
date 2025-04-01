@@ -72,7 +72,7 @@ Coding:
 
 ##  How to Use the Web App (Dev Mode)
 
-> All data must currently be entered manually due to simulation mode.
+> Since I made this project using local server you can't use the database and the code directly.I already shared outcomes in png form. However if you want to check manually whether the code works properly you need to follow these steps. All data must currently be entered manually due to simulation mode.
 
 1. Launch XAMPP and start Apache + MySQL.
 2. Import the SQL schema and triggers via phpMyAdmin (`cs306` database).
