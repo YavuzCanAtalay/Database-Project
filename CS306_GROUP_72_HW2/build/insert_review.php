@@ -2,7 +2,7 @@
 
 $servername = "localhost";       
 $username = "root";              
-$password = "*****";         
+$password = "*****"; //I deleted         
 $dbname = "cs306";  
 
 $conn = new mysqli($servername, $username, $password, $dbname);
