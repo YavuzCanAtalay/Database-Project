@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit a Review</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #A3CDB7; 
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff; 
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            width: 360px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 6px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"] {
+            width: 100%;
+            padding: 8px 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; 
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            width: 100%;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Submit a New Review</h2>
+        <form action="insert_review.php" method="post">
+            <label for="UserID">User ID:</label>
+            <input type="text" name="UserID" required>
+
+            <label for="RestaurantID">Restaurant ID:</label>
+            <input type="text" name="RestaurantID" required>
+
+            <label for="reviewID">Review ID:</label>
+            <input type="text" name="reviewID" required>
+
+            <label for="view_date">View Date:</label>
+            <input type="date" name="view_date" required>
+
+            <label for="rating">Rating (1–10):</label>
+            <input type="number" name="rating" min="0" max="10" required>
+
+            <label for="likes">Likes:</label>
+            <input type="number" name="likes" value="0" min="0" required>
+
+            <label for="FollowUps">FollowUps:</label>
+            <input type="number" name="FollowUps" value="0" min="0">
+
+            <input type="submit" value="Submit Review">
+        </form>
+    </div>
+</body>
+</html>
